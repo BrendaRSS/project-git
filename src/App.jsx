@@ -5,7 +5,7 @@ import Title from './componens/Title';
 function App() {
   return (
     <div className="list-container">
-      {/* <Title /> */}
+      <Title txto='LIsta de Frutas' />
       <ul className="option-list">
         <Option fruta="Banana" valor="00" />
         <Option fruta="Maça" />
